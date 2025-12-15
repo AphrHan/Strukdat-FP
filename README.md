@@ -2,7 +2,7 @@
 
 collision detection (pendeteksian tabrakan) merupakan komponen yang sangat penting. Collision detection digunakan untuk menentukan apakah dua atau lebih objek saling bertabrakan berdasarkan posisi dan ukuran masing-masing objek. Ketepatan dan efisiensi collision detection sangat mempengaruhi performa simulasi, terutama ketika jumlah objek yang disimulasikan cukup banyak. Pada kesempatan ini dilakukan simulasi collision detection menggunakan bahasa pemrograman C++ dengan bantuan library SFML. Dua metode yang dibandingkan adalah Brute Force dan Quadtree. Kedua metode tersebut diimplementasikan untuk mendeteksi tabrakan antar bola dalam ruang dua dimensi.
 
-3. Deskripsi Simulasi
+2. Deskripsi Simulasi
 
 Simulasi yang dibuat menampilkan sejumlah bola yang bergerak secara acak di dalam sebuah jendela 2D. Setiap bola memiliki atribut posisi, kecepatan, jari-jari, massa, dan warna. Bola akan memantul ketika mengenai dinding dan akan mengalami perubahan kecepatan ketika bertabrakan dengan bola lain.
 
